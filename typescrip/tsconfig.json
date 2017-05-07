@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "amd", 
+        "outDir": "built/js/", 
+        "sourceMap": true, 
+        "target": "es5"
+    }, 
+    "files": [
+        "prueba.ts",
+        "interfaces.ts",
+        "coche.ts",
+        "clases.ts",
+        "programa.ts",
+        "artifulo.ts"
+            ]
+}
