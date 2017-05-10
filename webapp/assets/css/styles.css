@@ -1,0 +1,51 @@
+.clearfix{
+	float: none;
+	clear:both;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	 font-family: 'Roboto', sans-serif;
+	 color: #444;
+	}
+#content{
+	width: 80%;
+	min-height: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #ddd;
+}
+header{
+	padding: 15px;
+	background-color: #007acc;
+}
+#header_logo{
+	width: 50px;
+	display: block;
+	float: left;
+}
+header h1{
+	margin: 0px;
+	margin-left: 15px;
+	padding-left: 15;
+	padding-right: 10px;
+	color: #ffffff;
+	line-height: 55px;
+	font-size: 25px;
+	text-transform: uppercase;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#cargando{
+	margin: 30px;
+	padding-left: 50px;
+	padding-top: 80px;
+	color: #0099ff;
+	line-height: 105px;
+	font-size: 45px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+<h2>{{titulo}}</h2>
+	<form #formularioNuevoCurso="ngForm" (ngSubmit)="onSubmit()">
+		<p>
+			Nombre:
+			<input type="text" #nombre="ngForm" ngControl="nombre" [(ngModel)]="nuevoCurso.nombre" required minlength="5"/>
+			<span *ngIf="!nombre.valid">!</span>
+		</p>
+		<p>
+			Facilitador:
+			<input type="text" #facilitador="ngForm" ngControl="facilitador" [(ngModel)]="nuevoCurso.facilitador" required pattern="[A-Z a-z]*"/>
+			<span *ngIf="!facilitador.valid">!</span>
+		</p>
+		<p>
+			Año:
+			<input type="text" #anio="ngForm" ngControl="anio" [(ngModel)]="nuevoCurso.anio" required pattern="[0-9]{4}"/>
+			<span *ngIf="!anio.valid">!</span>
+		</p>
+		<p>
+			<input type="submit" value="Registrar" [disabled]="!formularioNuevoCurso.form.valid" />
+		</p>
+	</form>

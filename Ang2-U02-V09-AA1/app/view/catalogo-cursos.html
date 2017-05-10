@@ -1,0 +1,24 @@
+<h2> <strong> Cursos disponibles: </strong> </h2>
+	<h3><strong>Recomendado</strong></h3>
+		<p>Nombre: <strong>{{curso.nombre}}</strong></p>
+		<p>Facilitador: <strong>{{curso.facilitador}}</strong></p>
+		<p>Año: <strong>{{curso.anio}}</strong></p>
+	
+	<h3><strong>Modificar el recomendado</strong></h3>
+	<p>
+		<strong>Nombre: </strong> <input type="text" (keypress)="logCurso()" [(ngModel)]="curso.nombre"/>
+	</p>
+
+	<hr>
+	<h3><strong>Catalogo completo:</strong></h3>
+	<button (click)="onShowHide(true)" [class.showingData]="mostrarDatos === true">Mostrar...</button>
+	<button (click)="onShowHide(false)" [class.showingData]="mostrarDatos === false">Ocultar...</button>
+	<ul *ngIf="mostrarDatos === true">
+		<li *ngFor="#curso of cursos">
+			<p (click)="onCambiarRecomendado(curso)" class="nombre-curso" [class.clicked]="recomendado.id === curso.id || recomendado.nombre === curso.nombre" >ID: <strong>{{curso.id}}</strong> Nombre: <strong>{{curso.nombre}}</strong></p>
+			<p>Facilitador: <strong>{{curso.facilitador}}</strong></p>
+			<p *ngIf="curso.anio" >Año: <strong>{{curso.anio}}</strong></p>
+			<p><a [routerLink]="['NuevoBasadoEnOtro', {nombre:curso.nombre, facilitador:curso.facilitador, anio:curso.anio}]" >Nuevo basado en este</a></p>
+		</li>
+	</ul>
+	<p>{{datoServicio}}</p>
