@@ -8,10 +8,6 @@
 		{
 			"follow_symlinks": true,
 			"path": "C:\\xampp\\htdocs\\Angular2\\Angular2\\Ang2-U02-V09-AA1"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "."
 		}
 	]
 }

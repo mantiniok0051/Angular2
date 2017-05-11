@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"import",
+				"import	keyword"
+			],
+			[
+				"padin",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"lis",
+				"lis	list-style"
+			],
+			[
 				"on",
 				"ngOnInit	method"
 			],
@@ -70,10 +110,6 @@
 			[
 				"im",
 				"import	keyword"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"impot",
@@ -240,10 +276,6 @@
 				"max-width"
 			],
 			[
-				"min",
-				"min-width"
-			],
-			[
 				"max",
 				"max-height"
 			],
@@ -288,10 +320,6 @@
 				"prevBtn"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"se",
 				"setAttribute"
 			],
@@ -324,20 +352,12 @@
 				"font-weight"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"background",
 				"background-color"
 			],
 			[
 				"fot",
 				"font-style"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"text",
@@ -412,10 +432,10 @@
 	"buffers":
 	[
 		{
-			"file": "restaurantes-api.php",
+			"file": "/C/xampp/htdocs/webapp/index.html",
 			"settings":
 			{
-				"buffer_size": 4096,
+				"buffer_size": 1581,
 				"line_ending": "Windows"
 			}
 		}
@@ -492,16 +512,36 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/services/restaurante.service.ts",
+		"/C/xampp/htdocs/slim/index.php",
+		"/C/xampp/htdocs/slim/composer.json",
+		"/C/xampp/htdocs/slim/restaurantes-api.php",
+		"/C/xampp/htdocs/slim/vendor/composer/autoload_real.php",
+		"/C/xampp/htdocs/slim/vendor/autoload.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/index.html",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/view/home.html",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/view/restaurantes-list.html",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/components/restaurantes-list.component.ts",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/app.component.ts",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/assets/css/styles.css",
+		"/C/xampp/mysql/bin/my.ini",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/model/restaurante.ts",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/view/restaurantes.html",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/restaurantes-api.php",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/package.json",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/typings.json",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/tsconfig.json",
+		"/C/xampp/htdocs/Angular2/Angular2/webapp/app/main.ts",
 		"/C/xampp/htdocs/Angular2/Angular2/webapp/angular-webapp.sql",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/app/app.component.ts",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/app/components/nuevo.component.ts",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/app/components/catalogo.component.ts",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/app/view/nuevo-cursos.html",
-		"/C/xampp/apache/conf/httpd.conf",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/app/view/catalogo-cursos.html",
 		"/C/xampp/htdocs/Angular2/.htaccess",
 		"/C/xampp/apache/conf/extra/httpd-xampp.conf",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/assets/css/styles.css",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/app/view/cursos.html",
 		"/C/xampp/htdocs/Angular2/Angular2/Ang2-U02-V09-AA1/app/services/cursos.service.ts",
@@ -599,27 +639,7 @@
 		"/C/xampp/htdocs/axatipe.com.mx/index.php",
 		"/C/xampp/htdocs/axatipe.com.mx/css/m_axa_sli.css",
 		"/C/xampp/htdocs/axatipe.com.mx/css/m_axa_fw.css",
-		"/C/xampp/htdocs/axatipe.com.mx/css/m_axa_drag.css",
-		"/C/xampp/htdocs/axatipe.com.mx/mobile_es.html",
-		"/C/xampp/htdocs/axatipe.com.mx/mobile_en.html",
-		"/C/xampp/htdocs/axatipe.com.mx/css/m_axa_comp.css",
-		"/C/xampp/htdocs/mx.com.axatipe/mobile/mobile_es.html",
-		"/C/xampp/htdocs/mx.com.axatipe/mobile/css/demo.css",
-		"/C/xampp/htdocs/mx.com.axatipe/css/axatipe_desk.css",
-		"/C/xampp/htdocs/mx.com.axatipe/mobile/css/component.css",
-		"/C/xampp/htdocs/mx.com.axatipe/mobile/css/dragdealer.css",
-		"/C/xampp/htdocs/mx.com.axatipe/mobile/mobile_en.html",
-		"/C/xampp/htdocs/mx.com.axatipe/index.php",
-		"/C/xampp/htdocs/mx.com.axatipe/index.html",
-		"/C/xampp/htdocs/mx.com.axatipe/desk-en.html",
-		"/C/xampp/htdocs/mx.com.axatipe/resources/css/axatipe2.css",
-		"/C/xampp/htdocs/mx.com.axatipe/resources/css/demo.css",
-		"/C/xampp/htdocs/mx.com.axatipe/resources/css/DocumentGalleryHead.css",
-		"/C/xampp/htdocs/mx.com.axatipe/resources/DocumentGallery.html",
-		"/C/xampp/htdocs/mx.com.axatipe/css/axatipe2.css",
-		"/C/xampp/htdocs/mx.com.axatipe/mobile/css/normalize.css",
-		"/C/xampp/htdocs/mx.com.axatipe/css/landing.css",
-		"/C/xampp/htdocs/mx.com.axatipe/resources/css/component.css"
+		"/C/xampp/htdocs/axatipe.com.mx/css/m_axa_drag.css"
 	],
 	"find":
 	{
@@ -760,11 +780,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "restaurantes-api.php",
+					"file": "/C/xampp/htdocs/webapp/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4096,
+						"buffer_size": 1581,
 						"regions":
 						{
 						},
@@ -777,8 +797,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -874,7 +895,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 99.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
